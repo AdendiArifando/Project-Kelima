@@ -1,0 +1,11 @@
+<app-headerAdendi (featureSelected)="onNavigate($event)"></app-headerAdendi>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+      <!--<app-recipeAdendi *ngIf="loadedFeature === 'recipeAdendi'"></app-recipeAdendi>
+      <app-shopping-listAdendi *ngIf="loadedFeature !== 'recipeAdendi'"></app-shopping-listAdendi>-->
+      <router-outlet></router-outlet>
+
+    </div>
+  </div>
+</div>
